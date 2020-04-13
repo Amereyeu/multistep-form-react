@@ -8,7 +8,7 @@ function FormPersonalDetails({
 	bio,
 	setBio,
 	occupation,
-	setOccupation
+	setOccupation,
 }) {
 	return (
 		<div className="container">
@@ -21,7 +21,7 @@ function FormPersonalDetails({
 								type="text"
 								className="form-control"
 								defaultValue={city}
-								onChange={e => setCity(e.target.value)}
+								onChange={(e) => setCity(e.target.value)}
 							/>
 						</div>
 
@@ -31,7 +31,7 @@ function FormPersonalDetails({
 								type="text"
 								className="form-control"
 								defaultValue={occupation}
-								onChange={e => setOccupation(e.target.value)}
+								onChange={(e) => setOccupation(e.target.value)}
 							/>
 						</div>
 
@@ -41,7 +41,7 @@ function FormPersonalDetails({
 								type="text"
 								className="form-control"
 								defaultValue={bio}
-								onChange={e => setBio(e.target.value)}
+								onChange={(e) => setBio(e.target.value)}
 							/>
 						</div>
 
@@ -56,7 +56,7 @@ function FormPersonalDetails({
 						<button
 							type="submit"
 							className="btn btn-primary"
-							onClick={() => setStep(step +1)}
+							onClick={() => setStep(step + 1)}
 						>
 							Next
 						</button>
