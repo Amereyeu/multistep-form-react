@@ -8,7 +8,7 @@ function FormPersonalDetails({
   bio,
   setBio,
   occupation,
-  setOccupation
+  setOccupation,
 }) {
   return (
     <div className="container">
